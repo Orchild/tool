@@ -24,3 +24,10 @@ docker build -t jenkins-slave/tscancode .
 docker build -t jenkins-slave/cloc .
 ```
 
+## eslint
+
+依赖于基础python环境镜像
+
+```shell
+docker build -t jenkins-slave/eslint .
+```
