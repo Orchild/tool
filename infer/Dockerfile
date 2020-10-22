@@ -82,3 +82,5 @@ ENV PATH /infer/bin:${PATH}
 RUN if test -d /infer-host; then \
       cp -av /infer/. /infer-host; \
     fi
+
+CMD ["tail", "-f", "/proc/version"]
